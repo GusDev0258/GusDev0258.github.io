@@ -4,13 +4,38 @@ body{
     background-color: #1f2937;
     color: #f4f4f5;
 }
-.sobre{
+.about{
     margin: 4px;
 }
 #profile-pic{
     display: flex;
     justify-content: center;
-    
+    transition: .2s ;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px #fcd34d solid;
+    width: 200px;
+    padding: 4px;
+    margin: 4px;
+}
+.list{
+    margin-top: 2px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+.list-item:hover{
+    font-size: 18px;
+    cursor: grab;
+}
+.skills > h2{
+    margin-left: 32px;
+    margin-bottom: 4px;
 }
 
 
