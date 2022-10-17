@@ -3,39 +3,51 @@ body{
     font-family: Roboto, sans-serif;
     background-color: #1f2937;
     color: #f4f4f5;
+    margin: 8px;
+    padding: 4px;
+
 }
-.about{
-    margin: 4px;
-}
-#profile-pic{
-    display: flex;
-    justify-content: center;
-    transition: .2s ;
-}
-.skills{
+.header{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 2px #fcd34d solid;
-    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 32vh;
+    left: 44%;
+    z-index: 2;
+}
+.about > p{
     padding: 4px;
     margin: 4px;
 }
+
+#profile-pic{
+    display: flex;
+    justify-content: center;
+    width: 30vh;
+}
 .list{
-    margin-top: 2px;
+    margin: 4px;
+    padding: 16px;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 4px;
+    border: 1px solid #fcd34d;
 }
 .list-item:hover{
     font-size: 18px;
     cursor: grab;
+    margin: auto;
+    padding: auto;
 }
-.skills > h2{
-    margin-left: 32px;
-    margin-bottom: 4px;
-}
+
 
 
