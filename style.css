@@ -35,13 +35,31 @@ ul{
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
-
-#profile-pic{
-   width: 32vmax;
-   height: 64vmin;
+.aboutme{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    
 }
+.imagem{
+    position: absolute;
+    left: 32px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+.list{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left:32px;
+    top: 500px;
 
-
+}
 
 
